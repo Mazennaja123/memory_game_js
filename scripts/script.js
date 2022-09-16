@@ -11,70 +11,63 @@ get_js_icon = document.getElementsByClassName("js_icon");
 get_css_icon = document.getElementsByClassName("css_icon");
 get_html_icon = document.getElementsByClassName("html_icon");
 
-const pics = [get_js_icon.src,get_css_icon.src,get_html_icon.src];
+const pics = [get_js_icon.src, get_css_icon.src, get_html_icon.src];
 //Starting game
 
+get_face1[0].addEventListener("click", flip1);
+get_face2[0].addEventListener("click", flip2);
+get_face3[0].addEventListener("click", flip3);
+get_face4[0].addEventListener("click", flip4);
+get_face5[0].addEventListener("click", flip5);
+get_face6[0].addEventListener("click", flip6);
 
 
-//display_cards();
 
 
 
+//Flipping cards
+function flip1() {
 
-
-//Add listeners to Face cards
-get_face1[0].addEventListener("click",flip1);
-get_face2[0].addEventListener("click",flip2);
-get_face3[0].addEventListener("click",flip3);
-get_face4[0].addEventListener("click",flip4);
-get_face5[0].addEventListener("click",flip5);
-get_face6[0].addEventListener("click",flip6);
-
-
-function flip1(){
-
-
-console.log("test");
+  get_face1[0].style.display = "none";
+  get_js_icon[0].style.display = "inline";
 
 }
 
 
-function flip2(){
+function flip2() {
 
-
-
-console.log("test");
-
-}
-
-
-function flip3(){
-
-
-
-console.log("test");
+  get_face2[0].style.display = "none";
+  get_html_icon[0].style.display = "inline";
 
 }
 
 
-function flip4(){
-
-
-
-console.log("test");
-
+function flip3() {
+  get_face3[0].style.display = "none";
+  get_css_icon[0].style.display = "inline";
 }
 
 
-function flip5(){
 
 
-console.log("test");
+
+function flip4() {
+
+  get_face4[0].style.display = "none";
+  get_css_icon[0].style.display = "inline";
+}
+
+
+function flip5() {
+
+  get_face4[0].style.display = "none";
+  get_html_icon[0].style.display = "inline";
 
 }
 
-function flip6(){
+function flip6() {
 
-console.log("test");
+  get_face6[0].style.display = "none";
+  get_js_icon[0].style.display = "inline";
 
 }
