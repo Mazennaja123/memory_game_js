@@ -1,0 +1,124 @@
+body {
+    background-color: lightgrey;
+}
+
+.header {
+    margin: auto;
+    margin-top: 50px;
+}
+
+.header > h1 {
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+}
+
+.face1 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border: solid 8px yellow;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.face2 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border: solid 8px yellow;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.face3 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border: solid 8px yellow;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.face4 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border: solid 8px yellow;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.face5 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border: solid 8px yellow;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.face6 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border: solid 8px yellow;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+
+
+.js_icon{
+  display: none;
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border: solid 8px white;
+  border-radius: 30px;
+  margin: 10px;
+
+}
+.html_icon{
+display: none;
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border: solid 8px white;
+  border-radius: 30px;
+  margin: 10px;
+
+}
+
+.css_icon{
+  display: none;
+  width: 150px;
+  height: 150px;
+  box-sizing: border-box;
+  border: solid 8px white;
+  border-radius: 30px;
+  margin: 10px;
+
+}
+
+
+.score {
+    background-color: white;
+    width: 250px;
+    height: 100px;
+    border: solid 8px black;
+    border-radius: 30px;
+    margin: 10px;
+    font-size: 48px;
+}
